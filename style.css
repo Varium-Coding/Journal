@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.WebsiteContainer {
+    position:relative; min-height: 100vh; max-width: 800px; background-color: rgba(129, 160, 179, 0.801); margin: 0 auto; border-radius: 20px;
+}
+img{max-width: 25%; border-radius:200px;}
+.header {background: #55d6aa; opacity: 85%;}
+
+.header::after{content:"" ;
+display: table;
+clear: both;}
+
+#topnav a:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+    color: #000;
+}
+
+#topnav a:hover{background: rgb(148, 148, 184);}
+#topnav a{text-decoration: none; color: #1c1c1c;  margin-right: 20px;margin-left: 20;display: flex;justify-content: space-between;}
+
+h1 {color: #193f32; display: flex; justify-content: center; text-align: center; padding: 3px;}
+
+body{background-color: #010d1442;}
+header {
+    color: #193f32; display: flex; justify-content: center; text-align: center; padding: 3px;
+}
+.ContentContainer {
+   justify-content: center; text-align: center;
+}
+#IfElse{
+    border-radius:200px;
+}
