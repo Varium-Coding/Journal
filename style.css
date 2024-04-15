@@ -7,7 +7,7 @@
 .WebsiteContainer {
     position:relative; min-height: 100vh; max-width: 800px; background-color: rgba(129, 160, 179, 0.801); margin: 0 auto; border-radius: 20px;
 }
-img{max-width: 25%; border-radius:200px;}
+
 .header {background: #55d6aa; opacity: 85%;}
 
 .header::after{content:"" ;
@@ -21,7 +21,7 @@ clear: both;}
 }
 
 #topnav a:hover{background: rgb(148, 148, 184);}
-#topnav a{text-decoration: none; color: #1c1c1c;  margin-right: 20px;margin-left: 20;display: flex;justify-content: space-between;}
+#topnav a{text-decoration: none; color: #1c1c1c;  margin-right: 20px;margin-left: 20;display: flex;justify-content: space-between; text-align: center;float: left;}
 
 h1 {color: #193f32; display: flex; justify-content: center; text-align: center; padding: 3px;}
 
@@ -32,6 +32,11 @@ header {
 .ContentContainer {
    justify-content: center; text-align: center;
 }
-#IfElse{
-    border-radius:200px;
+#Pictures img{
+        max-width: 25%;
+        border-radius: 200px;
+}
+#ifelse img{
+    max-width: 25%;
+    border-radius:15px;
 }
